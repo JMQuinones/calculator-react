@@ -1,0 +1,49 @@
+:root {
+  --btn-bg: #424852;
+  --display-bg: #4c6691;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--display-bg);
+}
+.container {
+  height: 100vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.key-pad {
+  width: 33.33%;
+}
+.display {
+  color: white !important;
+  background-color: black;
+  margin-bottom: -10px;
+  width: 100%;
+  padding-left: 15px;
+}
+
+.key-pad {
+  border: solid 1px;
+}
+
+#clear {
+  background-color: red;
+}
+#equals {
+  background-color: green;
+  width: 66.66%;
+}
+#add,
+#subtract,
+#multiply,
+#divide {
+  background-color: var(--btn-bg);
+}
+#calculator,
+.btn {
+  border: solid 1px black;
+}
